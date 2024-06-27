@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7611877491239967893, guid: 2ebf979aaaeff1a45966f55f233733e7, type: 3}
       propertyPath: m_TagString
-      value: Enemigo5
+      value: Enemigo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -522,7 +522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6984016091967807265, guid: 6b0b29e0168b61c4ab830ad250f7bf62, type: 3}
       propertyPath: m_TagString
-      value: Enemigo3
+      value: Enemigo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -534,6 +534,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6984016091967807265, guid: 6b0b29e0168b61c4ab830ad250f7bf62, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1940546131}
+    - targetCorrespondingSourceObject: {fileID: 6984016091967807265, guid: 6b0b29e0168b61c4ab830ad250f7bf62, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1940546135}
   m_SourcePrefab: {fileID: 100100000, guid: 6b0b29e0168b61c4ab830ad250f7bf62, type: 3}
 --- !u!1 &370878466
 GameObject:
@@ -6383,7 +6386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369444383060083201, guid: 7aff9190f32585948a8d7838a859933a, type: 3}
       propertyPath: m_TagString
-      value: Enemigo2
+      value: Enemigo
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8137,6 +8140,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.3121834, y: 1.3833271, z: 5.4932046}
   m_Center: {x: -0.000002086163, y: 0.93990856, z: -0.06999077}
+--- !u!114 &1940546135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940546126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3672328455e408459f0528d67d5bc33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proyectil: {fileID: 6222479509672416534, guid: 67afa4708e9681e4dbdba0f63378a997, type: 3}
 --- !u!1 &1954553725
 GameObject:
   m_ObjectHideFlags: 0
@@ -8356,7 +8372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2839031516196646320, guid: 6df639913147c224ea5b9ceda94435ae, type: 3}
       propertyPath: m_TagString
-      value: Enemigo4
+      value: Enemigo
       objectReference: {fileID: 0}
     - target: {fileID: 3183364011894404874, guid: 6df639913147c224ea5b9ceda94435ae, type: 3}
       propertyPath: m_LocalPosition.x
