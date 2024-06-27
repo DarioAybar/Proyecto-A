@@ -10,7 +10,7 @@ public class Proyectil : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
-        if (other.CompareTag("Enemigo2"))
+        /*if (other.CompareTag("Enemigo2"))
         {
             Destroy(other.gameObject);
         }
@@ -25,7 +25,7 @@ public class Proyectil : MonoBehaviour
         if (other.CompareTag("Enemigo5"))
         {
             Destroy(other.gameObject);
-        }
+        }*/
     }
 
   

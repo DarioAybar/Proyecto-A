@@ -13,5 +13,10 @@ public class VidaPlayer : MonoBehaviour
     {
         vida = Mathf.Clamp(vida, 0, 100);
         barraDeVida.fillAmount = vida / 100;
+
+        if(vida <= 0)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }
