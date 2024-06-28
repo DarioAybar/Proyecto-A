@@ -9,7 +9,7 @@ public class ProyectilEnemigo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Invoke("Destruirr", 10f);
     }
 
     // Update is called once per frame
@@ -24,5 +24,10 @@ public class ProyectilEnemigo : MonoBehaviour
         {
             other.GetComponent<VidaPlayer>().vida -= daño;
         }
+    }
+
+    void Destruirr()
+    {
+        Destroy(this.gameObject);
     }
 }
