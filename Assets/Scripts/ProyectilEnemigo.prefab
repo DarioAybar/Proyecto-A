@@ -119,3 +119,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   "da\xF1o": 20
+  particulas: {fileID: 4093076965168070072, guid: cf7a4a0a2d314db4aa713eb16820122b, type: 3}

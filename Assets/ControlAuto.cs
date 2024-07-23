@@ -7,6 +7,7 @@ public class ControlAuto : MonoBehaviour
     public float velocidad;
     public float rotacion;
     public GameObject proyectil;
+    public Vector3 offset;
     
     // Start is called before the first frame update
     void Start()
@@ -39,7 +40,7 @@ public class ControlAuto : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Instantiate(proyectil, transform.position, transform.rotation);
+            Instantiate(proyectil, transform.position + offset, transform.rotation);
         }
     }
 }
