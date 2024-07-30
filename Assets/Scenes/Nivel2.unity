@@ -8877,7 +8877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 20
-  rotacion: 40
+  rotacion: 80
   proyectil: {fileID: 6222479509672416534, guid: 4c34c14fb0d47c0479b1a5112243a973, type: 3}
   offset: {x: 0, y: 0.5, z: 0}
 --- !u!54 &1488335981
